@@ -1,10 +1,7 @@
 {
   "name": "b-web-200-lyn-2-1-epytodo-ferreol1.de-muizon",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -12,5 +9,8 @@
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.1"
   },
-  "description": ""
+  "description": "",
+  "scripts": {
+    "start": "node src/index.js"
+  }
 }
