@@ -1,23 +1,28 @@
 # EpyTodo
 
-RESTful Web API for user authentication and task management.
+API REST web backend et gestion de tâches avec base de données relationnelle MySQL.
 
-## Overview
+## Présentation
 
-Backend service structured with an MVC pattern, featuring JWT authentication, bcrypt password hashing, and MySQL database persistence.
+EpyTodo (B-WEB-200) est un service backend complet structuré selon l'architecture MVC pour gérer des utilisateurs et leurs listes de tâches personnelles.
 
-## Getting Started
+Fonctionnalités :
+- Authentification sécurisée par tokens JWT (JSON Web Tokens).
+- Hashage des mots de passe avec bcrypt.
+- Endpoints RESTful complets (CRUD) pour les utilisateurs et les tâches.
+- Persistance et requêtes relationnelles sur base MySQL.
 
-### Prerequisites
+## Prérequis
+
 - Node.js (v18+)
-- MySQL Server
+- Serveur MySQL en local ou distant
 
-### Setup & Run
+## Installation et Lancement
 
 ```bash
-# Install dependencies
+# Installer les dépendances
 npm install
 
-# Start the server
+# Démarrer le serveur
 npm start
 ```
